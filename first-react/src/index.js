@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 class Square extends React.Component {
@@ -14,51 +14,14 @@ class Square extends React.Component {
   }
 }
 
-class Board extends React.Component {
-  render() { 
-    return (
-      <div>
-      <div>
-        <Square value="1" />
-        <Square value="1" />
-        <Square value="1" />
-      </div>
-      <div>
-        <Square value="1" />
-        <Square value="1" />
-        <Square value="1" />
-      </div>
-      <div>
-        <Square value="1" />
-        <Square value="1" />
-        <Square value="1" />
-      </div>
-      </div>
-    );
-  }
-}
-
-
-
 function MyApp() {
   return ( 
     <div>
       <h1>Junius </h1>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul> 
+      <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></img>
     </div>
   )
 }
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Board />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
 ReactDOM.render(
   <MyApp />,
