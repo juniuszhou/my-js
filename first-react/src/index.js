@@ -25,7 +25,7 @@ function MyApp() {
 
 ReactDOM.render(
   <MyApp />,
-  document.getElementById('left')
+  document.getElementById('root')
 );
 
 

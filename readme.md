@@ -39,3 +39,11 @@ $ cnpm install -g create-react-app
 $ create-react-app my-app
 $ cd my-app/
 $ npm start
+
+## live server plugin for vscode
+install live server to debug js and html code.
+
+
+
+## best reference for js language
+https://javascript.info/
