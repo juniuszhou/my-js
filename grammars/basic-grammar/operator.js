@@ -13,3 +13,18 @@ console.log(height || 100) // get 100
 
 // &&
 
+
+// spread operator ... array to parameter serial with comma
+let a = [0, 1, 2]
+console.log(...a) // equal console.lgo(0, 1, 2)  output is 0 1 2
+
+let [first, ...rest] = a
+console.log(rest)
+// 
+
+// format string with `
+let a = 'Hello'
+let b = 'world'
+let c = `{$a} {$b}`
+console.log(c)
+
